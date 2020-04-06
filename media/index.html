@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>media page</title>
+    </head>
+    <body>
+        <!--
+        <video src="video-and-audio-content/rabbit320.webm" controls>
+            <p>你的浏览器不支持 HTML5 视频。可点击<a href="video-and-audio-content/rabbit320.mp4">此链接</a>观看</p>
+        </video>    -->
+        <video controls>
+            <source src="video-and-audio-content/rabbit320.mp4" type="video/mp4">
+            <source src="video-and-audio-content/rabbit320.webm" type="video/webm">
+            <p>你的浏览器不支持 HTML5 视频。可点击<a href="video-and-audio-content/rabbit320.mp4">此链接</a>观看</p>
+        </video>
+        <video controls width="400" height="400"
+               loop muted
+               poster="video-and-audio-content/poster.png">
+            <source src="video-and-audio-content/rabbit320.mp4" type="video/mp4">
+            <source src="video-and-audio-content/rabbit320.webm" type="video/webm">
+            <p>你的浏览器不支持 HTML5 视频。可点击<a href="video-and-audio-content/rabbit320.mp4">此链接</a>观看</p>
+        </video>
+        <audio controls>
+            <source src="video-and-audio-content/viper.mp3" type="audio/mp3">
+            <source src="video-and-audio-content/viper.ogg" type="audio/ogg">
+                <p>你的浏览器不支持 HTML5 音频，可点击<a href="video-and-audio-content/viper.mp3">此链接</a>收听。</p>
+        </audio>
+        <!--
+        <video controls>
+            <source src="video-and-audio-content/example.mp4" type="video/mp4">
+            <source src="video-and-audio-content/example.webm" type="video/webm">
+            <track kind="subtitles" src="video-and-audio-content/subtitles_en.vtt" srclang="en">
+        </video>
+        -->
+        
+    </body>
+</html>
