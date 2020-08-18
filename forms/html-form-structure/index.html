@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="payment-form.css" rel="stylesheet">
+        <title>payment</title>
+    </head>
+
+    <body>
+        <form>
+            <h1>Payment form</h1>
+            <p>Required fields are followed by <strong><abbr title="required">*</abbr></strong>.</p>
+            <section>
+                <h2>Contact information</h2>
+                <fieldset>
+                    <legend>Title</legend>
+                    <ul>
+                        <li>
+                          <label for="title_1">
+                            <input type="radio" id="title_1" name="title" value="M." >
+                            Mister
+                          </label>
+                        </li>
+                        <li>
+                          <label for="title_2">
+                            <input type="radio" id="title_2" name="title" value="Ms.">
+                            Miss
+                          </label>
+                        </li>
+                    </ul>  
+                </fieldset>
+                <p>
+                    <label for="name">
+                        <span>Name: </span>
+                        <strong><abbr title="required">*</abbr></strong>
+                    </label>
+                    <input type="text" id="name" name="username">
+                </p>
+                <p>
+                    <label for="pwd">
+                      <span>Password: </span>
+                      <strong><abbr title="required">*</abbr></strong>
+                    </label>
+                    <input type="password" id="pwd" name="password">
+                </p>
+            </section>
+        </form>
+        <input type="text" id="comment" name="comment" value="text field">
+        <input type="email" id="email" name="email" multiple> 
+        <label for="pwd">
+            <span>Password: </span>
+            <input type="password" id="pwd" name="pwd">
+        </label>
+        <form>
+            <label for="search"></label>
+                <input type="search" id="search" name="search">
+            </label>
+            
+        </form>
+        <select id="simple" name="simple">
+            <option>Banana</option>
+            <option>Cherry</option>
+            <option>Lemon</option>
+        </select>
+        <select id="groups" name="groups">
+            <optgroup label="fruits">
+                <option>Banana</option>
+                <option selected>Cherry</option>
+                <option>Lemon</option>
+            </optgroup>]
+            <optgroup label="vegetables">
+                <option>Carrot</option>
+                <option>Eggplant</option>
+                <option>Potato</option>
+            </optgroup>
+        </select>
+        <select multiple id="multi" name="multi">
+            <option>Banana</option>
+            <option>Cherry</option>
+            <option>Lemon</option>
+        </select>
+    </body>
+</html>
